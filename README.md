@@ -211,3 +211,9 @@ Discard local changes in a specific file
 ```shell
 git checkout HEAD <file>
 ```
+
+Revert a commit (by producing a new commit with contrary changes)
+
+```shell
+git revert <commit>
+```
