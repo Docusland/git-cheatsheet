@@ -205,6 +205,36 @@ Rebase your current branch onto \<branch_name>
 ```shell
 git rebase <branch_name>
 ```
+*Avant Rebase*  
+```mermaid
+  gitGraph
+    commit
+    commit
+    branch branch_name
+    commit
+    checkout branch_name
+    commit
+    checkout main
+    commit
+    commit
+    commit
+    checkout branch_name
+    commit
+```
+*Après Rebase*  
+```mermaid
+  gitGraph
+    commit
+    commit
+    commit
+    commit
+    commit
+    branch branch_name
+    checkout branch_name
+    commit
+    commit
+    commit
+```
 
 Abort a rebase
 
