@@ -13,3 +13,11 @@ Create new repository
 ```shell
 git init
 ```
+
+## LOCAL CHANGES
+
+Changed files in your working directory
+
+```shell
+git status
+```
