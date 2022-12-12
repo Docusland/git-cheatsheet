@@ -21,7 +21,16 @@ En fin de journée, réaliser une merge request au formateur.
   - Utilisation des branches
   - Une feature par fonctionnalité
 
-
+```mermaid
+gitGraph
+    branch dev
+    checkout dev
+    commit
+    commit
+    commit
+    commit
+    commit
+```
 
 ## Luis
 
