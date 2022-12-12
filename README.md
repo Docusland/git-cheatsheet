@@ -299,3 +299,9 @@ List all stashed changesets
 ```shell
 git stash list
 ```
+
+Apply the most recently stashed changeset
+
+```shell
+git stash apply
+```
