@@ -36,11 +36,17 @@ gitGraph
     commit
     checkout main
     merge develop
-    commit
-    commit
 ```
+
+Ce qui se fait par le biais des commandes suivantes :
+
+
+```shell
+checkout main && merge develop
+```
+
 - log : Permet de parcourir l'historique du dépôt GIT
-- remote add
+- remote add : Permet d'ajouter un dépôt GIT au projet.
 - pull
 - rebase
 
@@ -60,11 +66,11 @@ gitGraph
 
 ## Hugo
 
-- *git init*: Crée un nouveau dépôt GIT vide ou réinitialise un dépôt existant.
-- *git clone [url]*: Clone un dépôt existant à partir de son url. Par défaut, l'opération s'exécute dans le dossier courant.
+- **git init**: Crée un nouveau dépôt GIT vide ou réinitialise un dépôt existant.
+- **git clone [url]**: Clone un dépôt existant à partir de son url. Par défaut, l'opération s'exécute dans le dossier courant.
 - add
 - commit
-- *git checkout [branch]*: Permet de basculer sur une autre branche.
+- **git checkout [branch]**: Permet de basculer sur une autre branche.
   Dans l'exemple suivant, on crée une branche "dev" avec "git branch dev". Pour travailler dessus, on utilise la commande "git checkout dev".
   ```mermaid
       gitGraph
