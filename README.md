@@ -137,8 +137,31 @@ git tag <tag_name>
 git push --tags
 ```
 
-`̀``mermaid
+```mermaid
 gitGraph
     commit
     commit tag: "v1.0"
+```
+
+
+
+### MERGE & REBASE
+
+Merge a branch into your active branch
+
+```shell
+git merge <branch_name>
+```
+
+```mermaid
+gitGraph
+    commit
+    commit
+    branch branch_name
+    commit
+    checkout branch_name
+    commit
+    checkout main
+    merge branch_name
+    commit
 ```
