@@ -92,6 +92,7 @@ gitGraph
        commit
   ```
 - **diff** : Affiche les modifications entre les commits.
+![](diff.png)
 - **branch** : Liste, créer ou supprime des branches.
 ```mermaid
 gitGraph
