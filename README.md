@@ -305,3 +305,9 @@ Apply the most recently stashed changeset
 ```shell
 git stash apply
 ```
+
+Delete the most recently stashed changeset
+
+```shell
+git stash drop
+```
