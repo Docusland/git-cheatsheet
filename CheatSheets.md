@@ -89,6 +89,40 @@ $ git revert
 
 
 
-###
+### **STASH**
+Git stash permet d'enregistrer les modification dans une zone tampon.
+```
+$ git stash
+```
+
+Permet de lister les stash
+``` 
+$ git stash list
+```
+
+Permet de voir les details du commit dans le stash 
+``` 
+$ git stash show <numero commit>
+```
+Supprime le stash le plus récente
+
+``` 
+$ git stash drop
+```
+Applique le stash et le supprime 
+
+``` 
+$ git stash pop
+```
+
+Applique le stash mais le supprime pas 
+
+``` 
+$ git stash apply
+```
+
+
+
+
 
 
