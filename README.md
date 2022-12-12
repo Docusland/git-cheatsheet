@@ -53,6 +53,7 @@ gitGraph
 - diff
 - branch : Liste, créer ou supprime des branches.
 - push : Met à jour le dépôt distant.
+- prune : Supprime les branches inutiles.
 
 
 ## Hugo
