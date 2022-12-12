@@ -64,3 +64,17 @@ Change the last commit
 ```shell
 git commit --amend
 ```
+
+## COMMIT HISTORY
+
+Show all commits, starting with newest
+
+```shell
+git log
+```
+
+Show changes over time for a specific file
+
+```shell
+git log -p <file>
+```
