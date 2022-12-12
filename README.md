@@ -243,3 +243,9 @@ git reset <commit>
 ```shell
 git reset --keep <commit>
 ```
+
+Discard local changes in a specific file
+
+```shell
+git checkout HEAD <file>
+```
