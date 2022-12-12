@@ -43,7 +43,7 @@ En fin de journée, réaliser une merge request au formateur.
 - reset
 - diff
 - branch
-- push
+- push : Met à jour le dépôt distant.
 
 
 ## Hugo
