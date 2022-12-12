@@ -46,6 +46,11 @@ Commit all local changes in tracked files
 git commit -a
 ```
 
+```mermaid
+gitGraph
+    commit
+```
+
 Commit previously staged changes
 
 ```shell
