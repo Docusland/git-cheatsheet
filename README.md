@@ -86,6 +86,24 @@ gitGraph
   ```
 - **diff** : Affiche les modifications entre les commits.
 - **branch** : Liste, créer ou supprime des branches.
+```mermaid
+gitGraph
+       commit
+       commit
+       branch develop
+       commit
+       commit
+       commit
+       branch branch1
+       commit
+       checkout develop
+       branch branch2
+       commit
+       checkout develop
+       branch branch3
+       commit
+       commit
+ ```
 - **push** : Met à jour le dépôt distant.
 - **prune** : Supprime les branches inutiles.
 ```mermaid
