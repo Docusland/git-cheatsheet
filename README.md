@@ -130,3 +130,23 @@ Create a new tag
 ```shell
 git tag <tag_name>
 ```
+
+## UPDATE & PUBLISH
+
+List all currently configured remotes
+
+```shell
+git remote -v
+```
+
+Show information about a remote
+
+```shell
+git remote show <remote>
+```
+
+Add new remote repository, named \<remote>
+
+```shell
+git remote add <shortname> <url>
+```
