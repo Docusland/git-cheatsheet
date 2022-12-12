@@ -21,3 +21,9 @@ Changed files in your working directory
 ```shell
 git status
 ```
+
+Changes to tracked files
+
+```shell
+git diff
+```
