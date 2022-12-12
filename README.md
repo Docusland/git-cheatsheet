@@ -58,7 +58,7 @@ checkout main && merge develop
 - stash pop : Réapplique les sauvegardes temporaires.
 - log : Affiche-les commits de validation.
 - reset : Annule les modifications locales apportées au référentiel.
-- diff
+- diff : Affiche les modifications entre les commits.
 - branch : Liste, créer ou supprime des branches.
 - push : Met à jour le dépôt distant.
 - prune : Supprime les branches inutiles.
