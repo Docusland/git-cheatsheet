@@ -179,9 +179,6 @@ Publish local changes on a remote
 ```shell
 git push <remote> <branch>
 ```
-
-
-
 ## MERGE & REBASE
 
 Merge a branch into your active branch
@@ -219,4 +216,30 @@ Continue a rebase after resolving conflicts
 
 ```shell
 git rebase --continue
+```
+
+## UNDO
+
+Discard all local changes in your working directory
+
+```shell
+git reset --hard HEAD
+```
+
+Reset your HEAD pointer to a previous commit ...and discard all changes since then
+
+```shell
+git reset --hard <commit>
+```
+
+...and preserve all changes as unstaged changes
+
+```shell
+git reset <commit>
+```
+
+...and preserve uncommitted local changes
+
+```shell
+git reset --keep <commit>
 ```
