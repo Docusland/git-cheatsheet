@@ -61,6 +61,7 @@ gitGraph
 
 - **stash** : Sauvegarde temporairement son travail.
 - **stash pop** : Réapplique les sauvegardes temporaires et les supprime.
+- **stash pop apply** : Réapplique les sauvegardes temporaires et les gardent en mémoire tampon.
 - **stash apply** : Réapplique les sauvegardes temporaires mais les garde en mémoire.
 - **log** : Affiche-les commits de validation.
 ![](log.png)
