@@ -37,7 +37,7 @@ En fin de journée, réaliser une merge request au formateur.
 
 ## Greg
 
-- stash
+- stash : Sauvegarde temporairement son travail.
 - stash pop
 - log
 - reset
