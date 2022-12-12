@@ -42,7 +42,7 @@ gitGraph
     commit
 ```
 Après rebase :
-```
+```mermaid
 gitGraph
     commit
     commit
