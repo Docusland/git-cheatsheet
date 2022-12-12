@@ -179,3 +179,44 @@ Publish local changes on a remote
 ```shell
 git push <remote> <branch>
 ```
+
+
+
+## MERGE & REBASE
+
+Merge a branch into your active branch
+
+```shell
+git merge <branch_name>
+```
+
+```mermaid
+gitGraph
+    commit
+    commit
+    branch branch_name
+    commit
+    checkout branch_name
+    commit
+    checkout main
+    merge branch_name
+    commit
+```
+
+Rebase your current branch onto \<branch_name>
+
+```shell
+git rebase <branch_name>
+```
+
+Abort a rebase
+
+```shell
+git rebase --abort
+```
+
+Continue a rebase after resolving conflicts
+
+```shell
+git rebase --continue
+```
