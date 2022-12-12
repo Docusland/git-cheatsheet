@@ -65,6 +65,7 @@ gitGraph
 - add
 - commit
 - git checkout [branch]: Permet de basculer sur une autre branche.
+  Dans l'exemple suivant, on crée une branche "dev" pour travailler dessus. Lorsqu'on veut se remettre à travailler sur la branche "main", on lance la commande "git checkout main".
   ```mermaid
       gitGraph
         commit
