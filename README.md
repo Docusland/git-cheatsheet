@@ -1,14 +1,25 @@
-# Git Cheat Sheet
 
-[Markdown](https://www.markdownguide.org/cheat-sheet/#basic-syntax)
+<span style="color:red ; font-size:50px">Git CheatSheet</span>  
+*by Guéwen Carré & Miharisoa Babef*
+
+---
+<span style="font-size:30px">Sommaire</span>
+
+- Git c'est quoi ? [ici](#head1)
+- Commandes de base [ici](#head2)
+- Commandes Avancée [ici](#head3)
+- Annexe [ici](#head4)
 
 ---
 
-## Git c'est quoi ?
+
+
+
+<a name="head1"></a>## Git c'est quoi ?
 
 Git est un outil de **versionning** ou **système de contrôle de version**. Un projet open source largement utiliser dans le monde.  
 
-## Commande de base
+<a name="head2"></a>## Commande de base
 ### **INIT**
 Initialise un nouveau dépôt Git dans le répertoire courant.
 ```
@@ -57,7 +68,7 @@ Affiche l'état des fichiers dans le dépôt Git, y compris les fichiers modifi�
 ```
 $ git status
 ```
-# commande secondaire
+<a name="head3"></a># Commandes Avancées
 
 ### **BRANCHE**
 Affiche la liste des branches dans le dépôt Git.
@@ -219,5 +230,16 @@ gitGraph
     commit id: "Je suis la !" type: HIGHLIGHT
 ```
 > La branche active est la branche `BrancheTest`
-[Markdown](https://www.markdownguide.org/cheat-sheet/#basic-syntax)
+
+## **Annexe**
+
+
+<a name="head2"></a> 
+  
+
+
+- Schéma GIT : [git_overflow](./images/git_overflow.png)
+- Comment faire un Markdown : [Markdown](https://www.markdownguide.org/cheat-sheet/#basic-syntax)
+
+
 
