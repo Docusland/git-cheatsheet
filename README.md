@@ -54,15 +54,71 @@ checkout main && merge develop
 
 ## Greg
 
-- stash : Sauvegarde temporairement son travail.
-- stash pop : Réapplique les sauvegardes temporaires.
-- log : Affiche-les commits de validation.
-- reset : Annule les modifications locales apportées au référentiel.
-- diff : Affiche les modifications entre les commits.
-- branch : Liste, créer ou supprime des branches.
-- push : Met à jour le dépôt distant.
-- prune : Supprime les branches inutiles.
-
+- **stash** : Sauvegarde temporairement son travail.
+- **stash pop** : Réapplique les sauvegardes temporaires.
+- **log** : Affiche-les commits de validation.
+- **reset** : Annule les modifications locales apportées au référentiel.
+  
+```mermaid
+gitGraph
+       commit
+       commit
+       branch develop
+       checkout develop
+       commit
+       commit
+       checkout main
+       merge develop
+       commit
+       commit
+  ```
+  ```mermaid
+gitGraph
+       commit
+       commit
+       branch develop
+       checkout develop
+       commit
+       commit
+       checkout main
+       merge develop
+       commit
+  ```
+- **diff** : Affiche les modifications entre les commits.
+- **branch** : Liste, créer ou supprime des branches.
+- **push** : Met à jour le dépôt distant.
+- **prune** : Supprime les branches inutiles.
+```mermaid
+gitGraph
+       commit
+       commit
+       branch test
+       commit
+       commit
+       commit
+       checkout main
+       branch develop
+       checkout develop
+       commit
+       commit
+       checkout main
+       merge develop
+       commit
+       commit
+  ```
+```mermaid
+gitGraph
+       commit
+       commit
+       branch develop
+       checkout develop
+       commit
+       commit
+       checkout main
+       merge develop
+       commit
+       commit
+  ```
 
 ## Hugo
 
