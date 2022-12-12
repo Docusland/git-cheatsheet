@@ -177,3 +177,9 @@ Abort a rebase
 ```shell
 git rebase --abort
 ```
+
+Continue a rebase after resolving conflicts
+
+```shell
+git rebase --continue
+```
