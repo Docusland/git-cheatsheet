@@ -47,3 +47,9 @@ Delete a local branch
 ```shell
 git branch -d <branch_name>
 ```
+
+Delete a remote branch
+
+```shell
+git push origin --delete <branch_name>
+```
