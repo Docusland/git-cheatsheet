@@ -130,6 +130,17 @@ Create a new tag
 ```shell
 git tag <tag_name>
 ```
+*to push tags to remote*
+
+```shell
+git push --tags
+```
+
+```mermaid
+gitGraph
+    commit
+    commit tag: "v1.0"
+```
 
 ## UPDATE & PUBLISH
 
