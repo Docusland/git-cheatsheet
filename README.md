@@ -162,3 +162,9 @@ Download changes and directly merge/integrate into HEAD
 ```shell
 git pull <remote> <branch>
 ```
+
+Publish local changes on a remote
+
+```shell
+git push <remote> <branch>
+```
