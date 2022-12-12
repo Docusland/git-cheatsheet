@@ -41,3 +41,9 @@ Switch to a branch
 ```shell
 git checkout <branch_name>
 ```
+
+Delete a local branch
+
+```shell
+git branch -d <branch_name>
+```
