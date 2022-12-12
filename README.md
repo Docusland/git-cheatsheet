@@ -47,7 +47,7 @@ checkout main && merge develop
 
 - log : Permet de parcourir l'historique du dépôt GIT
 - remote add : Permet d'ajouter un dépôt GIT au projet.
-- pull
+- pull : git pull lance un git fetch et si notre dépôt local n'est pas à jour, alors il va télécharger les commits manquants.
 - rebase
 
 
