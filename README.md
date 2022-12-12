@@ -311,3 +311,9 @@ Delete the most recently stashed changeset
 ```shell
 git stash drop
 ```
+
+Apply stashed changeset and immediately delete it
+
+```shell
+git stash pop
+```
