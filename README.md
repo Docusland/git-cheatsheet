@@ -156,3 +156,9 @@ Download all changes from \<remote>, but don‘t integrate into HEAD
 ```shell
 git fetch <remote>
 ```
+
+Download changes and directly merge/integrate into HEAD
+
+```shell
+git pull <remote> <branch>
+```
