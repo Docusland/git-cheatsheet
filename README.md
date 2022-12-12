@@ -155,4 +155,4 @@ gitGraph
         commit
         commit
   ```
-- fetch
+- **git fetch**: Télécharge les commits, les fichiers et les réfs d'un dépôt distant vers votre dépôt local. Git isole le contenu ainsi récupéré. Pour l'intégrer au projet, il faut effectuer un "git checkout".
