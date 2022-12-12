@@ -78,3 +78,9 @@ Show changes over time for a specific file
 ```shell
 git log -p <file>
 ```
+
+Who changed what and when in \<file>
+
+```shell
+git blame <file>
+```
