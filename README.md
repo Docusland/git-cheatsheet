@@ -13,3 +13,19 @@ Create new repository
 ```shell
 git init
 ```
+
+## BRANCHES & TAGS
+
+Create a new branch
+
+```shell
+git branch <branch_name>
+```
+
+```mermaid
+gitGraph
+    commit
+    commit
+    branch branch_name
+    commit
+```
