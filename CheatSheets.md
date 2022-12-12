@@ -124,5 +124,23 @@ $ git stash apply
 
 
 
+## **SQUASH**
+le squash est un regroupement de commits
+si vous voulez squesher les 3 derniers commits
+``` 
+$ git rebase -i HEAD~3
+```
+ici les 2 derniers commits seront fusionnés
+```
+pick abc123 Mon premier commit
+squash def456 Mon deuxième commit
+squash ghi789 Mon troisième commit
+```
+
+
+
+
+
+
 
 
