@@ -1,27 +1,68 @@
-# git-cheatsheet
+# Git Cheat Sheet
 
-## Initiation de l'exercice
+[Markdown](https://www.markdownguide.org/cheat-sheet/#basic-syntax)
 
-A partir de ce dépôt-ci, réalisez une cheatsheet de git. 
+---
 
-Dans un premier temps réalisez un fork de ce dépôt et répartissez vous ce projet pour travailler à deux ou trois. 
+## Git c'est quoi ?
 
-Le livrable final attendu :
-- Avoir un sommaire
-- Avoir des sections pour chaque fonctionnalité de git. Cette section doit contenir les commandes de base 
-	- commit / add / log / squash / branch / checkout / revert / reset ...
-- Pour chaque instruction, il est attendu d'avoir une description textuelle
-- Pour chaque section il est attendu d'avoir un petit graph mermaid
+Git est un outil de **versionning** ou **système de contrôle de version**. Un projet open source largement utiliser dans le monde.
+
+## Branch
+
+### Voir la branche active
+
+```shell
+$ git branch
+* main
+```
+### Créer une nouvelle branch
+```shell
+$ git branch BrancheTest
+```
+
+### Voir toutes les branches
+
+```shell
+$ git branch -a
+* main
+  BrancheTest
+  remote/origin/HEAD
+```
+
+### Changer de branches active
+Cette commande permet de changer de branche active, autrement dit, on se place sur une autre branche.  
+
+```shell
+$ git checkout BranchTest
+```
+```mermaid
+gitGraph
+    commit
+    commit
+    branch BrancheTest
+    checkout develop
+    commit
+    commit
+    checkout main
+    merge develop
+    commit
+    commit
+```
+> La branche active est la branche `BrancheTest`
 
 
+### Fusionner les branches  
+Cette commande permet de fusionner les branches et donc de rassembler les modifications.  
 
+```shell
+$ git merge BranchTest main
+```
+> La La branche **main** a récuperer les changements de la branche **BrancheTest**
 
+### Rebaser les commits d'une branche
+Cette commande permet de rebaser les commits d'une branche vers une autre 
 
-
-## Livraison de l'exercice
-
-En fin de journée, réaliser une merge request au formateur. 
-  - Attention, l'historique des commits doit être propre. 
-  - Ainsi un commit par fonctionnalité présentée
-  - Utilisation des branches
-  - Une feature par fonctionnalité
+```shell
+$ git rebase main BrancheTest
+```
