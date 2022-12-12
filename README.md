@@ -39,7 +39,7 @@ En fin de journée, réaliser une merge request au formateur.
 
 - stash : Sauvegarde temporairement son travail.
 - stash pop : Réapplique les sauvegardes temporaires.
-- log
+- log : Affiche-les commits de validation.
 - reset
 - diff
 - branch
