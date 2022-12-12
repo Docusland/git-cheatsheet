@@ -49,7 +49,7 @@ En fin de journée, réaliser une merge request au formateur.
 ## Hugo
 
 - git init: Crée un nouveau dépôt GIT vide ou réinitialise un dépôt existant.
-- clone
+- git clone [url]: Clone un dépôt existant à partir de son url. Par défaut, l'opération s'exécute dans le dossier courant.
 - add
 - commit
 - checkout
