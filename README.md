@@ -39,7 +39,7 @@ gitGraph
     commit
     commit
 ```
-- log
+- log : Permet de parcourir l'historique du dépôt GIT
 - remote add
 - pull
 - rebase
@@ -52,7 +52,7 @@ gitGraph
 - stash pop : Réapplique les sauvegardes temporaires.
 - log : Affiche-les commits de validation.
 - reset : Annule les modifications locales apportées au référentiel.
-- diff : Affiche les modifications entre les commits.
+- diff
 - branch : Liste, créer ou supprime des branches.
 - push : Met à jour le dépôt distant.
 - prune : Supprime les branches inutiles.
