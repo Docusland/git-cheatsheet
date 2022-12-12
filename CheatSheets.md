@@ -13,12 +13,22 @@ Clone un dépôt Git existant sur votre ordinateur
  $ git clone <url du projet>
 ```
 ### **ADD**
-Ajoute un fichier ou des fichiers à l'index Git pour suivi des modifications.
+Ajout l'ensemble des fichiers du depot  
+🚨 n'est pas conseillé !! 🚨
+```
+$ git add .
+```
+Ajoute un ou des fichiers dans la zone de transite avant le commit.
 ```
 $ git add <fichier>
 ```
+Permettre l’ajout de fichiers qui sont normalement ignorés.
+```
+$ git add --force <fichier>
+```
+
 ### **COMMIT**
-Enregistre les modifications actuelles dans l'historique du dépôt Git.
+Enregistre les modifications actuelles dans l'historique du dépôt Git avant le push.
 ```
 $ git commit -m "<message>"
 ```
@@ -29,7 +39,7 @@ $ git push <remote> <branche>
 ```
 
 ### **PULL**
-Récupère les derniers commits d'un dépôt distant et les fusionne avec le dépôt local.
+Récupère la dernière version d'un dépôt distant.
 
 ```
 $ git pull <remote> <branche>
@@ -49,23 +59,13 @@ $ git branch
 ```
 voir +
 
-
-### **CHECKOUT**
-Change de branche dans le dépôt Git.
-```
-$ git checkout
-```
-and we can even [link](#head1234) to it so:
-### **MERGE**
-Fusionne une branche avec la branche active.
-```
-$ git merge
-```
-
 ### **LOG**
 Affiche l'historique des commits du dépôt Git.
 ```
 $ git log
+```
+```
+$ git log --oneline
 ```
 ### **DIFF**
 Affiche les différences entre les fichiers dans le dépôt Git.
@@ -80,12 +80,15 @@ Annule les commits dans le dépôt Git.
 $ git reset
 ```
 
-### **REVERT
+### **REVERT**
+Annule les commits dans le dépôt Git sans supprimer les commits 
+```
+$ git revert 
+```
 
 
 
 
-
-### <a name="head1234"></a>A Heading in this SO entry!
+###
 
 
