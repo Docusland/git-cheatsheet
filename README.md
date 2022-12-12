@@ -1,28 +1,143 @@
-# git-cheatsheet
+# Git Cheat Sheet
+[Markdown](https://www.markdownguide.org/cheat-sheet/#basic-syntax)
 
-## Initiation de l'exercice
+# Commande de base
+### **INIT**
+Initialise un nouveau dépôt Git dans le répertoire courant.
+```
+ $ git init 
+```
+### **CLONE**
+Clone un dépôt Git existant sur votre ordinateur
+```
+ $ git clone <url du projet>
+```
+### **ADD**
+Ajout l'ensemble des fichiers du depot  
+🚨 n'est pas conseillé !! 🚨
+```
+$ git add .
+```
+Ajoute un ou des fichiers dans la zone de transite avant le commit.
+```
+$ git add <fichier>
+```
+Permettre l’ajout de fichiers qui sont normalement ignorés.
+```
+$ git add --force <fichier>
+```
 
-A partir de ce dépôt-ci, réalisez une cheatsheet de git. 
+### **COMMIT**
+Enregistre les modifications actuelles dans l'historique du dépôt Git avant le push.
+```
+$ git commit -m "<message>"
+```
+### **PUSH**
+Envoie les commits locaux vers un dépôt distant.
+```
+$ git push <remote> <branche>
+```
 
-Dans un premier temps réalisez un fork de ce dépôt et répartissez vous ce projet pour travailler à deux ou trois. 
+### **PULL**
+Récupère la dernière version d'un dépôt distant.
 
-Le livrable final attendu :
-- Avoir un sommaire
-- Avoir des sections pour chaque fonctionnalité de git. Cette section doit contenir les commandes de base 
-	- commit / add / log / squash / branch / checkout / revert / reset ...
-- Pour chaque instruction, il est attendu d'avoir une description textuelle
-- Pour chaque section il est attendu d'avoir un petit graph mermaid
+```
+$ git pull <remote> <branche>
+```
+
+### **STATUS**
+Affiche l'état des fichiers dans le dépôt Git, y compris les fichiers modifiés et non suivis.
+```
+$ git status
+```
+# commande secondaire
+
+### **BRANCHE**
+Affiche la liste des branches dans le dépôt Git.
+```
+$ git branch
+```
+voir +
+
+### **LOG**
+Affiche l'historique des commits du dépôt Git.
+```
+$ git log
+```
+```
+$ git log --oneline
+```
+### **DIFF**
+Affiche les différences entre les fichiers dans le dépôt Git.
+```
+$ git diff
+```
+
+### **RESET**
+Annule les commits dans le dépôt Git.
+
+```
+$ git reset
+```
+
+### **REVERT**
+Annule les commits dans le dépôt Git sans supprimer les commits 
+```
+$ git revert 
+```
+
+
+
+
+### **STASH**
+Git stash permet d'enregistrer les modification dans une zone tampon.
+```
+$ git stash
+```
+
+Permet de lister les stash
+``` 
+$ git stash list
+```
+
+Permet de voir les details du commit dans le stash 
+``` 
+$ git stash show <numero commit>
+```
+Supprime le stash le plus récente
+
+``` 
+$ git stash drop
+```
+Applique le stash et le supprime 
+
+``` 
+$ git stash pop
+```
+
+Applique le stash mais le supprime pas 
+
+``` 
+$ git stash apply
+```
+
+## **SQUASH**
+le squash est un regroupement de commits
+si vous voulez squesher les 3 derniers commits
+``` 
+$ git rebase -i HEAD~3
+```
+ici les 2 derniers commits seront fusionnés
+```
+pick abc123 Mon premier commit
+squash def456 Mon deuxième commit
+squash ghi789 Mon troisième commit
+```
 
 
 
 
 
 
-## Livraison de l'exercice
 
-En fin de journée, réaliser une merge request au formateur. 
-  - Attention, l'historique des commits doit être propre. 
-  - Ainsi un commit par fonctionnalité présentée
-  - Utilisation des branches
-  - Une feature par fonctionnalité
-pu
+
