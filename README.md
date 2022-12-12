@@ -25,3 +25,4 @@ En fin de journée, réaliser une merge request au formateur.
   - Ainsi un commit par fonctionnalité présentée
   - Utilisation des branches
   - Une feature par fonctionnalité
+pu
