@@ -57,6 +57,7 @@ checkout main && merge develop
 - **stash** : Sauvegarde temporairement son travail.
 - **stash pop** : Réapplique les sauvegardes temporaires.
 - **log** : Affiche-les commits de validation.
+![](1.png)
 - **reset** : Annule les modifications locales apportées au référentiel.
   
 ```mermaid
