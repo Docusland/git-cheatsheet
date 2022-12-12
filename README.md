@@ -48,7 +48,7 @@ En fin de journée, réaliser une merge request au formateur.
 
 ## Hugo
 
-- init
+- git init: Crée un nouveau dépôt GIT vide ou réinitialise un dépôt existant.
 - clone
 - add
 - commit
