@@ -30,7 +30,8 @@ checkout main && merge develop
 ## Greg
 
 - **stash** : Sauvegarde temporairement son travail.
-- **stash pop** : Réapplique les sauvegardes temporaires.
+- **stash pop** : Réapplique les sauvegardes temporaires et les supprime.
+- **stash apply** : Réapplique les sauvegardes temporaires mais les garde en mémoire.
 - **log** : Affiche-les commits de validation.
 ![](1.png)
 - **reset** : Annule les modifications locales apportées au référentiel.
