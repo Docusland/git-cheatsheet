@@ -53,3 +53,9 @@ Delete a remote branch
 ```shell
 git push origin --delete <branch_name>
 ```
+
+Create a new tag
+
+```shell
+git tag <tag_name>
+```
