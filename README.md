@@ -137,7 +137,7 @@ git tag <tag_name>
 git push --tags
 ```
 
-`̀``mermaid
+```mermaid
 gitGraph
     commit
     commit tag: "v1.0"
