@@ -49,7 +49,7 @@ gitGraph
 - stash : Sauvegarde temporairement son travail.
 - stash pop : Réapplique les sauvegardes temporaires.
 - log : Affiche-les commits de validation.
-- reset
+- reset : Annule les modifications locales apportées au référentiel.
 - diff
 - branch : Liste, créer ou supprime des branches.
 - push : Met à jour le dépôt distant.
