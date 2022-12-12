@@ -124,10 +124,9 @@ gitGraph
 
 - **git init**: Crée un nouveau dépôt GIT vide ou réinitialise un dépôt existant.
 - **git clone [url]**: Clone un dépôt existant à partir de son url. Par défaut, l'opération s'exécute dans le dossier courant.
-- add
+- **git add [filename]** Ajoute le fichier indiqué au staging. Effectuer "git add *" permet d'ajouter tous les fichiers du dossier au   staging.
 - commit
-- **git checkout [branch]**: Permet de basculer sur une autre branche.
-  Dans l'exemple suivant, on crée une branche "dev" avec "git branch dev". Pour travailler dessus, on utilise la commande "git checkout dev".
+- **git checkout [branch]**: Permet de basculer sur une autre branche. Dans l'exemple suivant, on crée une branche "dev" avec "git branch dev". Pour travailler dessus, on utilise la commande "git checkout dev".
   ```mermaid
       gitGraph
         commit
