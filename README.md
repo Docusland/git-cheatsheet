@@ -171,3 +171,9 @@ Rebase your current branch onto \<branch_name>
 ```shell
 git rebase <branch_name>
 ```
+
+Abort a rebase
+
+```shell
+git rebase --abort
+```
