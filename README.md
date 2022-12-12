@@ -1,5 +1,15 @@
 # Git Cheatsheet
 
+- [Git Cheatsheet](#git-cheatsheet)
+  - [CREATE](#create)
+  - [LOCAL CHANGES](#local-changes)
+  - [COMMIT HISTORY](#commit-history)
+  - [BRANCHES \& TAGS](#branches--tags)
+  - [UPDATE \& PUBLISH](#update--publish)
+  - [MERGE \& REBASE](#merge--rebase)
+  - [UNDO](#undo)
+  - [STASH](#stash)
+
 ## CREATE
 
 Clone existing repository
