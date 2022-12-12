@@ -112,6 +112,7 @@ gitGraph
        commit
  ```
 - **push** : Met à jour le dépôt distant.
+![](push.png)
 - **prune** : Supprime les branches inutiles.
 ```mermaid
 gitGraph
