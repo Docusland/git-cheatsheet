@@ -285,3 +285,11 @@ Revert a commit (by producing a new commit with contrary changes)
 ```shell
 git revert <commit>
 ```
+
+## STASH
+
+Stash the changes in a dirty working directory away
+
+```shell
+git stash
+```
