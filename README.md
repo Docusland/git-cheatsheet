@@ -60,20 +60,19 @@ gitGraph
 
 ## Hugo
 
-- git init: Crée un nouveau dépôt GIT vide ou réinitialise un dépôt existant.
-- git clone [url]: Clone un dépôt existant à partir de son url. Par défaut, l'opération s'exécute dans le dossier courant.
+- *git init*: Crée un nouveau dépôt GIT vide ou réinitialise un dépôt existant.
+- *git clone [url]*: Clone un dépôt existant à partir de son url. Par défaut, l'opération s'exécute dans le dossier courant.
 - add
 - commit
-- git checkout [branch]: Permet de basculer sur une autre branche.
-  Dans l'exemple suivant, on crée une branche "dev" pour travailler dessus. Lorsqu'on veut se remettre à travailler sur la branche "main", on lance la commande "git checkout main".
+- *git checkout [branch]*: Permet de basculer sur une autre branche.
+  Dans l'exemple suivant, on crée une branche "dev" avec "git branch dev". Pour travailler dessus, on utilise la commande "git checkout dev".
   ```mermaid
       gitGraph
         commit
         commit
         branch dev
+        checkout dev
         commit
-        checkout main
-        merge dev
         commit
   ```
 - fetch
