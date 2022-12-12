@@ -62,5 +62,14 @@ gitGraph
 - git clone [url]: Clone un dépôt existant à partir de son url. Par défaut, l'opération s'exécute dans le dossier courant.
 - add
 - commit
-- checkout
+- git checkout [branch]: Permet de basculer sur une autre branche.
+  ```mermaid
+      gitGraph
+        commit
+        commit
+        branch dev
+        commit
+        checkout main
+        merge dev
+        commit```
 - fetch
