@@ -165,3 +165,9 @@ gitGraph
     merge branch_name
     commit
 ```
+
+Rebase your current branch onto \<branch_name>
+
+```shell
+git rebase <branch_name>
+```
