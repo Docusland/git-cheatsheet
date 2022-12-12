@@ -29,3 +29,9 @@ gitGraph
     branch branch_name
     commit
 ```
+
+List all branches
+
+```shell
+git branch
+```
