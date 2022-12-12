@@ -23,7 +23,7 @@ checkout main && merge develop
 - log : Permet de parcourir l'historique du dépôt GIT
 - remote add : Permet d'ajouter un dépôt GIT au projet.
 - pull : git pull lance un git fetch et si notre dépôt local n'est pas à jour, alors il va télécharger les commits manquants.
-- rebase : permet de couper une branche pour la regreffer à un autre endroit sur l'arbre.
+- rebase : permet de déplacer la base d'une branche pour la regreffer à un autre endroit sur l'arbre.
 Avant rebase :
 ```mermaid
 gitGraph
