@@ -51,7 +51,7 @@ gitGraph
 - log : Affiche-les commits de validation.
 - reset
 - diff
-- branch
+- branch : Liste, créer ou supprime des branches.
 - push : Met à jour le dépôt distant.
 
 
