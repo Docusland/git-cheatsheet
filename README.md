@@ -255,3 +255,41 @@ Revert a commit (by producing a new commit with contrary changes)
 ```shell
 git revert <commit>
 ```
+
+## UNDO
+
+Discard all local changes in your working directory
+
+```shell
+git reset --hard HEAD
+```
+
+Reset your HEAD pointer to a previous commit ...and discard all changes since then
+
+```shell
+git reset --hard <commit>
+```
+
+...and preserve all changes as unstaged changes
+
+```shell
+git reset <commit>
+```
+
+...and preserve uncommitted local changes
+
+```shell
+git reset --keep <commit>
+```
+
+Discard local changes in a specific file
+
+```shell
+git checkout HEAD <file>
+```
+
+Revert a commit (by producing a new commit with contrary changes)
+
+```shell
+git revert <commit>
+```
