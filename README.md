@@ -20,6 +20,14 @@ $ git branch
 ```shell
 $ git branch BrancheTest
 ```
+```mermaid
+gitGraph
+    commit
+    commit
+    branch BrancheTest
+    
+```
+> La branche `BrancheTest` vient d'être créer
 
 ### Voir toutes les branches
 
@@ -34,20 +42,15 @@ $ git branch -a
 Cette commande permet de changer de branche active, autrement dit, on se place sur une autre branche.  
 
 ```shell
-$ git checkout BranchTest
+$ git checkout BrancheTest
 ```
 ```mermaid
 gitGraph
     commit
     commit
     branch BrancheTest
-    checkout develop
-    commit
-    commit
-    checkout main
-    merge develop
-    commit
-    commit
+    checkout BrancheTest
+    commit id: "Je suis la !" type: HIGHLIGHT
 ```
 > La branche active est la branche `BrancheTest`
 
@@ -58,7 +61,20 @@ Cette commande permet de fusionner les branches et donc de rassembler les modifi
 ```shell
 $ git merge BranchTest main
 ```
-> La La branche **main** a récuperer les changements de la branche **BrancheTest**
+
+```mermaid
+gitGraph
+    commit
+    commit
+    branch BrancheTest
+    checkout BrancheTest
+    commit
+    commit
+    checkout main
+    merge BrancheTest
+    commit
+```
+> La La branche **main** a fusionné les changements de la branche **BrancheTest**
 
 ### Rebaser les commits d'une branche
 Cette commande permet de rebaser les commits d'une branche vers une autre 
@@ -66,3 +82,6 @@ Cette commande permet de rebaser les commits d'une branche vers une autre
 ```shell
 $ git rebase main BrancheTest
 ```
+![Rebase schema](./images/rebase.png)
+
+> Avant le rebase nous avons deux branches distinctes, **master** et **feature** . Après le rebase nous avons une unique branche master possèdant les commits de la branche **master**.
