@@ -35,3 +35,9 @@ List all branches
 ```shell
 git branch
 ```
+
+Switch to a branch
+
+```shell
+git checkout <branch_name>
+```
