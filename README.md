@@ -150,3 +150,9 @@ Add new remote repository, named \<remote>
 ```shell
 git remote add <shortname> <url>
 ```
+
+Download all changes from \<remote>, but don‘t integrate into HEAD
+
+```shell
+git fetch <remote>
+```
