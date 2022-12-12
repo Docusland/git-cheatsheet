@@ -1,14 +1,12 @@
 # Git Cheat Sheet
 [Markdown](https://www.markdownguide.org/cheat-sheet/#basic-syntax)
 
-## Commande de base
----
+# Commande de base
 ### **INIT**
 Initialise un nouveau dépôt Git dans le répertoire courant.
 ```
  $ git init 
 ```
-
 ### **CLONE**
 Clone un dépôt Git existant sur votre ordinateur
 ```
@@ -42,6 +40,52 @@ Affiche l'état des fichiers dans le dépôt Git, y compris les fichiers modifi�
 ```
 $ git status
 ```
+# commande secondaire
 
+### **BRANCHE**
+Affiche la liste des branches dans le dépôt Git.
+```
+$ git branch
+```
+voir +
+
+
+### **CHECKOUT**
+Change de branche dans le dépôt Git.
+```
+$ git checkout
+```
+and we can even [link](#head1234) to it so:
+### **MERGE**
+Fusionne une branche avec la branche active.
+```
+$ git merge
+```
+
+### **LOG**
+Affiche l'historique des commits du dépôt Git.
+```
+$ git log
+```
+### **DIFF**
+Affiche les différences entre les fichiers dans le dépôt Git.
+```
+$ git diff
+```
+
+### **RESET**
+Annule les commits dans le dépôt Git.
+
+```
+$ git reset
+```
+
+### **REVERT
+
+
+
+
+
+### <a name="head1234"></a>A Heading in this SO entry!
 
 
