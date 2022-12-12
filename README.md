@@ -21,22 +21,24 @@ En fin de journée, réaliser une merge request au formateur.
   - Utilisation des branches
   - Une feature par fonctionnalité
 
-```mermaid
-gitGraph
-    branch dev
-    checkout dev
-    commit
-    commit
-    commit
-    commit
-    commit
-```
+
 
 ## Luis
 
-- config
-- status
-- merge
+- merge : Permet d'intégrer le travail fait dans une branche à une autre.
+```mermaid
+gitGraph
+    commit
+    commit
+    branch develop
+    checkout develop
+    commit
+    commit
+    checkout main
+    merge develop
+    commit
+    commit
+```
 - log
 - remote add
 - pull
