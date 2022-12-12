@@ -73,5 +73,6 @@ gitGraph
         commit
         checkout main
         merge dev
-        commit```
+        commit
+  ```
 - fetch
