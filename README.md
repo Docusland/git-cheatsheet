@@ -293,3 +293,9 @@ Stash the changes in a dirty working directory away
 ```shell
 git stash
 ```
+
+List all stashed changesets
+
+```shell
+git stash list
+```
